@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CollectGem.cs" />
      <Compile Include="Assets\Scripts\PlayerCasting.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />

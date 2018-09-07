@@ -10,9 +10,9 @@ public class Rotation : MonoBehaviour {
 		transform.Rotate(0, RotateSpeed, 0, Space.World);
 	}
 
-	void OnTriggerEnter(Collider other)
-	{
-		CollectSound.Play();
-		TheGem.SetActive(false);
-	}
+	//void OnTriggerEnter(Collider other)
+	//{
+	//	CollectSound.Play();
+	//	TheGem.SetActive(false);
+	//}
 }
